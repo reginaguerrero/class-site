@@ -1,1 +1,1 @@
-# classite
+# class-site

@@ -1,0 +1,14 @@
+body {
+  margin: 20px;
+  background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(1,1,1,1) 47%, rgba(252,70,107,1) 100%);
+  /* font-family: 'Lobster', cursive; */
+}
+
+h1 {
+font-family: 'Nanum Myeongjo', serif;
+}
+p {
+  filter: blur(1px);
+  transform: rotate(10deg);
+}

@@ -1,0 +1,6 @@
+body {
+  background-image: url("netmagnified.jpg");
+  background-size: 300px;
+  background-position: top;
+  background-attachment: scroll;
+}

@@ -1,0 +1,73 @@
+
+h1 {
+  font-size: 50px;
+  color: darkred;
+  background-color: crimson;
+  border: 20px solid crimson;
+  border-radius: 15px;
+  margin: 40px 20px;
+  font-family: "Verdana";
+}
+h2 {
+  font-size: 50px;
+  color: darkred;
+  background-color: crimson;
+  border: 20px solid crimson;
+  border-radius: 15px;
+  margin: 40px 20px;
+  font-family: "Verdana";
+}
+h3 {
+  font-size: 50px;
+  color: darkred;
+  background-color: crimson;
+  border: 20px solid crimson;
+  border-radius: 15px;
+  margin: 40px 20px;
+  font-family: "Verdana";
+}
+body {
+  font-size: 25px;
+  background-image: url("childrenofsilk.jpg");
+  background-size: 800px;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: "Verdana";
+}
+p {
+  color: crimson;
+  background-color: lightcoral;
+  border: 20px solid lightcoral 80%;
+  border-radius: 15px;
+  margin: 20px 50px 20px 50px;
+  padding: 35px;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+ul {
+  color: lightcoral;
+  background-color: crimson;
+  border: 20px solid darkred;
+  /* border-radius: 15px; */
+  margin: 30px 80px;
+  padding: 35px;
+}
+
+
+img {
+  display: block;
+  background-color: darkred;
+  border: 20px solid crimson;
+  /* border-radius: 15px; */
+  margin: 20px 50px 20px 50px;
+  padding: 35px;
+  float: right;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+.other {
+    float: left;
+}
+.new {
+  float: center;
+}
