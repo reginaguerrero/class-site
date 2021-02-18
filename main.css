@@ -1,6 +1,7 @@
 body {
-  background-image: url("netmagnified.jpg");
-  background-size: 300px;
+  background-image: url("hearty.jpg");
+  background-size: 100%;
   background-position: top;
   background-attachment: scroll;
+  display: flex;
 }
