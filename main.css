@@ -1,6 +1,7 @@
 body {
   background-image: url("reginashearty.jpg");
   background-size: 100%;
+  margin: 50px;
   background-position: top;
   background-attachment: scroll;
   display: flex;
