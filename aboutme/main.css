@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: darkcyan;
+  background-image: url("hojitainvert.png");
+  background-size: 22%;
+  margin: 30px;
+  background-position: top;
+  background-attachment: scroll;
+  display: flex;
+}
