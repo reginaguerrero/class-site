@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-image: url("lovehearts.png");
+  background-size: 120%;
+  background-position: top;
+}
+
+.face {
+    background: sandybrown;
+    height: 100vh;
+    width: 100%;
+    border-radius: 45% 45% 45% 45%;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+.cheek {
+    width: 49%;
+    height: 50%;
+    background: hotpink;
+    border-radius: 50%;
+    opacity: 50%;
+    display: flex;
+  }
+
+.eye {
+  position: absolute;
+  top: 10%;}
+.eye:before,
+.eye:after {
+    position: absolute;
+    content: "";
+    left: 100px;
+    top: 0;
+    width: 100px;
+    height: 160px;
+    background: crimson;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;}
+  .eye:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+  }
+
+.left {
+  position: absolute;
+top: 10%;
+left: 20%;
+}
+
+.right {
+  position: absolute;
+  top:10%;
+  left: 63%;
+}
+
+.smile {
+
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      box-shadow: 15px 15px 0 0 lightpink;
+      position: absolute;
+      top: 60%;
+      left: 50%;
+    }
+
+
+}
