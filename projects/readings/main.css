@@ -2,6 +2,18 @@
   box-sizing: border-box;
 }
 body {
+  background-color: orchid;
   margin: 30px;
-  background: orchid;
+  background-image: url("magentabackground.png");
+  background-size: 8%;
+  margin: 30px;
+  background-position: top;
+  background-attachment: scroll;
+
+}
+h1 {
+  color: white;
+}
+p{
+  color: white;
 }
