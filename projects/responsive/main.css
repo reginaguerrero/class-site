@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 16px; */
+}
+body {
+  margin: 20px;
+}
+.box {
+  background: royalblue;
+  max-width: 900px;
+  min-height: 150px;
+  /* overflow: auto; */
+}
+
+p {
+  font-size: 2rem;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.item {
+  background: midnightblue;
+  width: 32%;
+  height: 200px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .flex {
+    /* flex-direction: column; */
+
+  }
+  .item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
