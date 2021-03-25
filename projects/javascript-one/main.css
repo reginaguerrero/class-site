@@ -18,7 +18,7 @@ body {
 }
 
 .btn::selection {
-  display:none;
+  display: none;
   background:transparent;
 }
 
@@ -26,7 +26,7 @@ body {
   background:rgb(188, 178, 237);
 }
 
-#box {
+#wish {
   height:100%;
   background:rgb(124, 122, 204);
   position:fixed;

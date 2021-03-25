@@ -16,6 +16,7 @@ a {
   color: plum;
   font-family: 'DotGothic16', sans-serif;
   font-weight: bold;
+  cursor: pointer;
 }
 a:hover {
 transform: scale(2.5);
@@ -34,6 +35,7 @@ p{
 
 img {
   width: 225px;
+  cursor: grab;
 }
 .webdes {
   border-radius: 40%;
