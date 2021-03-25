@@ -49,14 +49,14 @@ img {
   left: 300px;
   transition: transform .5s ease, color .5s ease;
 }
-.vcugmail {
+.gmail {
   border-radius: 40%;
   position: absolute;
   top: 200px;
   left: 560px;
   transition: transform .5s ease, color .5s ease;
 }
-.vcudrive {
+.drive {
   border-radius: 40%;
   position: absolute;
   top: 90px;
