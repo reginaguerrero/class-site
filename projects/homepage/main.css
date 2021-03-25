@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+body {
+    background-color: #f5ae70;
+    background-image: url("arenadia.jpg");
+    background-size: 100vw 100vh;
+    margin: 0;
+    background-position: top;
+    background-attachment: scroll;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color: plum;
+  font-family: 'DotGothic16', sans-serif;
+  font-weight: bold;
+}
+a:hover {
+transform: scale(2.5);
+color: peachpuff;
+}
+
+p{
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+  font-size: 20px;
+  color: peachpuff;
+  font-family: 'DotGothic16', sans-serif;
+  font-weight: bold;
+}
+
+img {
+  width: 225px;
+}
+.webdes {
+  border-radius: 40%;
+  position: absolute;
+  top: 150px;
+  left: 70px;
+  transition: transform .5s ease, color .5s ease;
+}
+.google {
+  border-radius: 40%;
+  position: absolute;
+  top: 160px;
+  left: 300px;
+  transition: transform .5s ease, color .5s ease;
+}
+.vcugmail {
+  border-radius: 40%;
+  position: absolute;
+  top: 200px;
+  left: 560px;
+  transition: transform .5s ease, color .5s ease;
+}
+.vcudrive {
+  border-radius: 40%;
+  position: absolute;
+  top: 90px;
+  left: 740px;
+  transition: transform .5s ease, color .5s ease;
+}
+.calendar {
+  border-radius: 40%;
+  position: absolute;
+  top: 90px;
+  left: 1020px;
+  transition: transform .5s ease, color .5s ease;
+}
+.weather {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: 120px;
+  left: 1200px;
+  transition: transform .5s ease, color .5s ease;
+}
+.noisli {
+  border-radius: 40%;
+  position: absolute;
+  top: 320px;
+  left: 150px;
+  transition: transform .5s ease, color .5s ease;
+}
+.ig {
+  border-radius: 40%;
+  position: absolute;
+  top: 420px;
+  left: 300px;
+  transition: transform .5s ease, color .5s ease;
+}
+.youtube {
+  border-radius: 40%;
+  position: absolute;
+  top: 400px;
+  left: 600px;
+  transition: transform .5s ease, color .5s ease;
+}
+.netflix {
+  border-radius: 40%;
+  position: absolute;
+  top: 380px;
+  left: 760px;
+  transition: transform .5s ease, color .5s ease;
+}

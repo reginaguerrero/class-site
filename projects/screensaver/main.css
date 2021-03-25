@@ -24,7 +24,7 @@ body {
       border-radius: 40% 100% 30% 40%/ 50% 50% 50% 100%;
       background-color: plum;
       /* opacity: 80%; */
-      animation: breathe 4.4s  infinite alternate;
+      animation: breathe 4s  infinite alternate;
     }
 
 .lung {
@@ -34,7 +34,7 @@ body {
       border-radius: 100% 40% 40% 30%/ 50% 50% 100% 50%;
       background-color: plum;
       /* opacity: 80%; */
-      animation: breathe 4.4s  infinite alternate;
+      animation: breathe 4s  infinite alternate;
 
     }
 

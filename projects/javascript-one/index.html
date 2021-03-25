@@ -1,0 +1,25 @@
+<!doctype  html>
+<html lang="en">
+<head>
+  <title>Title</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <link rel="icon" type="image/png" href="kiss.png">
+</head>
+
+  <body>
+    <div class="btn" onclick="toggle()">Click me...</div>
+    <div id="box">
+  the box
+</div>
+
+<script>
+function toggle() {
+var box = document.getElementById("box");
+box.classList.toggle("active");
+}
+</script>
+  </body>
+
+</html>
