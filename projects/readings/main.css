@@ -2,9 +2,9 @@
   box-sizing: border-box;
 }
 body {
-  background-color: orchid;
+  background-color: mediumvioletred;
   margin: 30px;
-  background-image: url("magentabackground.png");
+  /* background-image: url("magentabackground.png"); */
   background-size: 8%;
   margin: 30px;
   background-position: top;

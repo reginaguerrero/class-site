@@ -3,11 +3,15 @@
 }
 
 body {
-  background-color: crimson;
-  background-image: url("caracol.png");
-  background-size: 12%;
-  margin: 30px;
+  background-color: mediumvioletred;
+  /* background-image: url("caracol.png"); */
+  background-size: 20%;
+  margin: 0px;
   background-position: top;
-  background-attachment: scroll;
   display: flex;
+}
+
+.heather{
+  position: absolute;
+  width: 100vw;
 }
