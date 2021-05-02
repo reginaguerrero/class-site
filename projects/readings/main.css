@@ -2,18 +2,51 @@
   box-sizing: border-box;
 }
 body {
-  background-color: mediumvioletred;
-  margin: 30px;
-  /* background-image: url("magentabackground.png"); */
+  background-color: darkcyan;
+  background-image: url("hojitainvert.png");
   background-size: 8%;
-  margin: 30px;
+  margin: 0px;
   background-position: top;
   background-attachment: scroll;
-
 }
 h1 {
+  font-family: 'Righteous', sans-serif;
   color: white;
+  text-align: center;
+  text-shadow: 6px 6px 10px #3f4e80;
+}
+h2 {
+  font-family: 'Krona One', sans-serif;
+  color: white;
+  text-align: center;
+  text-shadow: 6px 6px 10px #3f4e80;
 }
 p{
-  color: white;
+  /* font-family: 'Fjalla One', sans-serif; */
+  font-family: 'Krona One', sans-serif;
+  color: #3f4e80;
+  text-align: center;
+  background: darkcyan;
+
+  /* text-shadow: 6px 6px 10px #3f4e80; */
+}
+.web {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+.brain {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+.friend {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+.fractal {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
 }

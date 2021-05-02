@@ -3,15 +3,35 @@
 }
 
 body {
-  background-color: mediumvioletred;
-  /* background-image: url("caracol.png"); */
-  background-size: 20%;
-  margin: 0px;
+  background-color: #982a41;
+  background-image: url("caracol.png");
+  background-size: 14%;
+  margin: 40px;
   background-position: top;
-  display: flex;
+  /* display: flex; */
 }
 
-.heather{
-  position: absolute;
-  width: 100vw;
+h1 {
+    font-family: 'Righteous', sans-serif;
+    color: pink;
+    text-shadow: 6px 6px 10px #982a41;
+    font-size: 75px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-align: center;
+
+}
+a {
+  font-family: 'Krona One', sans-serif;
+  color: pink;
+  text-shadow: 6px 6px 10px #982a41;
+  text-decoration: none;
+  cursor: pointer;
+}
+ul {
+    font-family: 'Krona One', sans-serif;
+    color: pink;
+    text-shadow: 6px 6px 10px #982a41;
+    opacity: 100%;
+    /* background: crimson; */
 }
