@@ -7,31 +7,35 @@ body {
   background-image: url("caracol.png");
   background-size: 14%;
   margin: 40px;
+  margin-top: 20px;
   background-position: top;
   /* display: flex; */
 }
 
 h1 {
     font-family: 'Righteous', sans-serif;
-    color: pink;
-    text-shadow: 6px 6px 10px #982a41;
-    font-size: 75px;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    text-align: center;
+    /* font-family: 'Krona One', sans-serif; */
+    color: #b01226;
+    opacity: 75%;
+    /* color: pink; */
+    /* text-shadow: 6px 6px 10px #982a41; */
+    font-size: 90px;
+    text-align: left;
+    margin-left: 40px;
 
 }
 a {
   font-family: 'Krona One', sans-serif;
+  font-size: 18px;
   color: pink;
-  text-shadow: 6px 6px 10px #982a41;
+  text-shadow: 6px 6px 10px #b01226;
   text-decoration: none;
   cursor: pointer;
 }
 ul {
     font-family: 'Krona One', sans-serif;
+    font-size: 18px;
     color: pink;
-    text-shadow: 6px 6px 10px #982a41;
+    text-shadow: 6px 6px 10px #b01226;
     opacity: 100%;
-    /* background: crimson; */
 }

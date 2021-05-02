@@ -4,30 +4,32 @@
 body {
   background-color: darkcyan;
   background-image: url("hojitainvert.png");
-  background-size: 8%;
+  background-size: 14%;
   margin: 0px;
   background-position: top;
   background-attachment: scroll;
 }
-h1 {
+/* h1 {
   font-family: 'Righteous', sans-serif;
-  color: white;
-  text-align: center;
-  text-shadow: 6px 6px 10px #3f4e80;
-}
-h2 {
   font-family: 'Krona One', sans-serif;
   color: white;
   text-align: center;
   text-shadow: 6px 6px 10px #3f4e80;
+} */
+h2 {
+  font-family: 'Krona One', sans-serif;
+  color: black;
+  opacity: 50%;
+  text-align: center;
+  /* text-shadow: 6px 6px 10px #3f4e80; */
 }
 p{
   /* font-family: 'Fjalla One', sans-serif; */
   font-family: 'Krona One', sans-serif;
-  color: #3f4e80;
+  color: #60cbc5;
   text-align: center;
   background: darkcyan;
-
+  padding: 20px;
   /* text-shadow: 6px 6px 10px #3f4e80; */
 }
 .web {
